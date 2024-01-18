@@ -40,7 +40,7 @@ fn main() {
             thread::spawn(move || {
 
                 loop {
-
+                    println!("New thread spawned...");
                     // Buffer to receive message
                     let mut buffer = vec![0; MESSAGE_SIZE];
 
